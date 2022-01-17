@@ -1,0 +1,51 @@
+.site-header { position:fixed }
+.site-title a, .site-title a:hover { color:#ffffff }
+.site-description { color:#fff }
+.site-header, .site-header.header-scrolled { background-color:rgba(32, 37, 41, 0.9) }
+
+@media only screen and (max-width: 1024px) {
+  .site-header.has-header, .site-header.has-video, .site-header.has-single, .site-header.has-shortcode { background-color:rgba(32, 37, 41, 0.9) }
+  .site-header .container { padding:13px 0 0 }
+  .btn-menu { width:3em;float:right }
+  .site-branding { width:80%;float:left }
+}
+
+body, .widget-area .widget, .widget-area .widget a { color:#000 }
+.footer-widgets, .site-footer, .footer-info { background-color:#202529 }
+body { font-family:"Open Sans", sans-serif }
+h1, h2, h3, h4, h5, h6, .fact .fact-number, .fact .fact-name, .site-title { font-family:"Avenir Next LT Pro", sans-serif }
+.site-title { font-size:36px }
+.site-description { font-size:14px }
+h1 { font-size:36px }
+h2 { font-size:30px }
+h3 { font-size:24px }
+h4 { font-size:16px }
+h5 { font-size:14px }
+h6 { font-size:12px }
+body { font-size:18px }
+.button, input[type="button"], input[type="reset"], input[type="submit"] { padding:12px 30px;font-size:14px;border-radius:0 }
+.main-navigation ul li a { color:#fff }
+.main-navigation ul ul li a { color:#fff }
+.main-navigation ul ul { background-color:#1c1e21 }
+.header-image::after { background-color:rgba(37, 46, 53, 0.8) }
+.header-text, .header-subtext { color:#fff }
+.footer-widgets, .footer-info, .site-footer, .footer-widgets a, .footer-info a, .site-footer a { color:#a3aaaa }
+.footer-widgets .widget-title { color:#fff }
+.row-overlay { background-color:rgba(37, 46, 53, 0.8) }
+
+h1.hero { font-weight:800;font-size:500%;padding-top:4%;color:#fff;margin-left:-1.5%; }
+
+#masthead img { width:7em;margin:0 0 0 15px }
+body { background:#000 url("/images/pnbglg.jpg") center bottom/cover no-repeat fixed }
+
+.contact-us .label-hide, .contact-us .required-label { visibility:hidden;line-height:1em }
+.contact-us .field-label { float:left;clear:both }
+.contact-us .field { clear:both }
+.contact-us .field-row { width:100%;float:left;clear:both }
+.contact-us .field-row:after { content: '';clear:both;display:table; }
+.contact-us .field-medium { max-width:60% }
+.contact-us .one-half { width:50%;float:left;clear:none;padding-right:4% }
+.contact-us .one-half:last-child { padding-right:0 }
+.contact-us input, .contact-us textarea { background-color:#fff;box-sizing:border-box;border-radius:2px;color:#333;display:block;float:none;font-size:14px;border:1px solid #ccc;padding:6px 10px;height:38px;width:100%;line-height:1.3 }
+.contact-us textarea { height:120px }
+.contact-us button { margin-top:1em }
